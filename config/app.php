@@ -174,11 +174,12 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
         /* Zipper */
         Chumper\Zipper\ZipperServiceProvider::class,
         /* Curl */
         Ixudra\Curl\CurlServiceProvider::class,
+        /* Excel */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
     ],
 
@@ -232,6 +233,8 @@ return [
         'Zipper' => Chumper\Zipper\Zipper::class,
         /* Curl */
         'Curl'          => Ixudra\Curl\Facades\Curl::class,
+        /* Excel */
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 
 ];
