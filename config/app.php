@@ -176,7 +176,9 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /* Zipper */
-        Chumper\Zipper\ZipperServiceProvider::class
+        Chumper\Zipper\ZipperServiceProvider::class,
+        /* Curl */
+        Ixudra\Curl\CurlServiceProvider::class,
 
     ],
 
@@ -227,7 +229,9 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         /* Zipper */
-        'Zipper' => Chumper\Zipper\Zipper::class
+        'Zipper' => Chumper\Zipper\Zipper::class,
+        /* Curl */
+        'Curl'          => Ixudra\Curl\Facades\Curl::class,
     ],
 
 ];
